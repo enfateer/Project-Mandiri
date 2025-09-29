@@ -1,0 +1,16 @@
+ html,
+        body {
+            height: 100%;
+            /* full height */
+            margin: 0;
+            /* hilangkan jarak default */
+        }
+
+        body {
+            min-height: 100vh;
+            /* selalu full layar */
+            background: linear-gradient(135deg, #00B86B 0%, #0C344B 100%);
+            background-attachment: fixed;
+            /* biar mantap saat scroll */
+            background-size: cover;
+        }
