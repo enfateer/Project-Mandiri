@@ -22,12 +22,12 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                {{-- <a class="navbar-brand mt-2 mt-lg-0" href="{{route('home')}}">
+                <a class="navbar-brand mt-2 mt-lg-0" href="{{route('home')}}">
                     <img src="{{ asset('image/fintrack-removebg-preview.png') }}" height="40" alt="FinTrack Logo"
                         loading="lazy" />
-                </a> --}}
+                </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('home')}}"><b>Dashboard</b></a></li>
                 </ul>
             </div>
 
@@ -46,7 +46,7 @@
 
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
-                            <button type="submit" class="btn btn-danger rounded-pill">Logout</button>
+                            <button type="submit" class="btn btn-danger rounded-pill"><b>Logout</b></button>
                         </form>
                     @endauth
                 </div>
